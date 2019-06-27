@@ -27,9 +27,29 @@ Create spectrums of MEM and NIOM recordings
 
 ```
 python Feature generation.ipynb
-
 ```
 Create spectral features of MEM and NIOM recordings, such as dominant frequencies, height, width, prominence of highest peaks  
+
+
+### Visualization
+```
+python Visualization/Spectrum widget.ipynb
+```
+Plot spectrums
+
+```
+python Visualization/Spectrum widget 2.0.ipynb
+```
+Plot spectrums and raw MEM signal, requires plotly library
+
+
+### Classification
+```
+python ML/SVM.ipynb
+```
+
+
+
 
 
 
