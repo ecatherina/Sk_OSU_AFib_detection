@@ -16,3 +16,20 @@ Dataset has 27 dataframes with 1728 MEM recordings and 511 NIOM recordings in to
 
 ## Usage
 
+### Feature generation 
+```
+python Spectrum creation.ipynb
+
+optional arguments:
+--lowcut, highcut                   cutoff frequencies for Butterworth digital filter, default {4, 20}
+```
+Create spectrums of MEM and NIOM recordings 
+
+```
+python Feature generation.ipynb
+
+```
+Create spectral features of MEM and NIOM recordings, such as dominant frequencies, height, width, prominence of highest peaks  
+
+
+
